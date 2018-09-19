@@ -1,7 +1,13 @@
-// https://playcode.io/123129?tabs=console&script.js&output
+/*
+note:
+   replace string in regex way
 
-// https://regexr.com/
-
+running test:
+   https://playcode.io/123129?tabs=console&script.js&output
+   https://regexr.com/
+date: 
+   2018/9/19 9:12 
+*/
 var source = "AAA BBB yyy(10, 2121); CCCC DDD yyy(222, 333);";
 var reg = new RegExp(/(yyy\()(\d+),\s+(\d+)/g);
 // $1: (yyy\()   [first match]
