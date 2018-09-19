@@ -1,7 +1,7 @@
 /*
 note:
    replace string in regex way
-
+   
 running test:
    https://playcode.io/123129?tabs=console&script.js&output
    https://regexr.com/
